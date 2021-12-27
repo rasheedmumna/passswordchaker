@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputChecker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="desgin">
+        <h1>CHECK YOUR PASSWORD</h1>
+        <input type="text" id="inp">
+        <br>
+        <button onclick="myfunction()">
+            CLICK ME
+        </button>
+        <p id="show1"></p>
+    </div>
+    <!--desgin--->
+
+
+
+    <script>
+
+        function myfunction() {
+            var check = document.getElementById('inp').value;
+
+            if (check == "chatbox") {
+                document.getElementById('show1').innerHTML = ("your password is Correct ");
+            }
+
+            else {
+                document.getElementById('show1').innerHTML = ("your password is Wrong ");
+            }
+        }
+    </script>
+</body>
+
+</html>
