@@ -1,0 +1,37 @@
+body{
+    background-color:black;
+}
+
+.desgin{
+    width: 26%;
+    height: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: yellowgreen;
+}
+.desgin input{
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    font-size: 40px;
+  
+}
+.desgin button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+ 
+}
+#show1{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    padding: 20px;
+    font-weight: bold;
+}
